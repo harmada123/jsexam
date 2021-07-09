@@ -1,4 +1,4 @@
-# jsexam
+# JS Exam
 
 1. Clone the Project.
 2. Run npm install to download dependency.
