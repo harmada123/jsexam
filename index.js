@@ -8,12 +8,11 @@
   *
   **/
   
-  var mocha = require('mocha')
-  var describe = mocha.describe
-  var it = mocha.it
-  var assert = require('chai').assert
+var mocha = require('mocha')
+var describe = mocha.describe
+var it = mocha.it
+var assert = require('chai').assert
 
-//data
 describe("Basic tests", () => {
   it("Testing for fixed tests", () => {
     assert.strictEqual(descendingOrder(0), 0)
@@ -27,5 +26,5 @@ describe("Basic tests", () => {
 
 //exam
 function descendingOrder(n){
-
+  console.log(n)
 }
